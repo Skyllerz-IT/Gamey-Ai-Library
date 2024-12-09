@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		6B9DAB682D06DC6C001D3981 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B9DAB4D2D06DC6A001D3981 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B9DAB542D06DC6A001D3981;
+			remoteInfo = "Gamey Ai Library";
+		};
+		6B9DAB722D06DC6C001D3981 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B9DAB4D2D06DC6A001D3981 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B9DAB542D06DC6A001D3981;
+			remoteInfo = "Gamey Ai Library";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6B9DAB552D06DC6A001D3981 /* Gamey Ai Library.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gamey Ai Library.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B9DAB672D06DC6C001D3981 /* Gamey Ai LibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gamey Ai LibraryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B9DAB712D06DC6C001D3981 /* Gamey Ai LibraryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gamey Ai LibraryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		6B9DAB572D06DC6A001D3981 /* Gamey Ai Library */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Gamey Ai Library";
+			sourceTree = "<group>";
+		};
+		6B9DAB6A2D06DC6C001D3981 /* Gamey Ai LibraryTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Gamey Ai LibraryTests";
+			sourceTree = "<group>";
+		};
+		6B9DAB742D06DC6C001D3981 /* Gamey Ai LibraryUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Gamey Ai LibraryUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B9DAB522D06DC6A001D3981 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B9DAB642D06DC6C001D3981 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B9DAB6E2D06DC6C001D3981 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B9DAB4C2D06DC6A001D3981 = {
+			isa = PBXGroup;
+			children = (
+				6B9DAB572D06DC6A001D3981 /* Gamey Ai Library */,
+				6B9DAB6A2D06DC6C001D3981 /* Gamey Ai LibraryTests */,
+				6B9DAB742D06DC6C001D3981 /* Gamey Ai LibraryUITests */,
+				6B9DAB562D06DC6A001D3981 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B9DAB562D06DC6A001D3981 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B9DAB552D06DC6A001D3981 /* Gamey Ai Library.app */,
+				6B9DAB672D06DC6C001D3981 /* Gamey Ai LibraryTests.xctest */,
+				6B9DAB712D06DC6C001D3981 /* Gamey Ai LibraryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B9DAB542D06DC6A001D3981 /* Gamey Ai Library */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B9DAB7B2D06DC6C001D3981 /* Build configuration list for PBXNativeTarget "Gamey Ai Library" */;
+			buildPhases = (
+				6B9DAB512D06DC6A001D3981 /* Sources */,
+				6B9DAB522D06DC6A001D3981 /* Frameworks */,
+				6B9DAB532D06DC6A001D3981 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				6B9DAB572D06DC6A001D3981 /* Gamey Ai Library */,
+			);
+			name = "Gamey Ai Library";
+			packageProductDependencies = (
+			);
+			productName = "Gamey Ai Library";
+			productReference = 6B9DAB552D06DC6A001D3981 /* Gamey Ai Library.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6B9DAB662D06DC6C001D3981 /* Gamey Ai LibraryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B9DAB7E2D06DC6C001D3981 /* Build configuration list for PBXNativeTarget "Gamey Ai LibraryTests" */;
+			buildPhases = (
+				6B9DAB632D06DC6C001D3981 /* Sources */,
+				6B9DAB642D06DC6C001D3981 /* Frameworks */,
+				6B9DAB652D06DC6C001D3981 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B9DAB692D06DC6C001D3981 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6B9DAB6A2D06DC6C001D3981 /* Gamey Ai LibraryTests */,
+			);
+			name = "Gamey Ai LibraryTests";
+			packageProductDependencies = (
+			);
+			productName = "Gamey Ai LibraryTests";
+			productReference = 6B9DAB672D06DC6C001D3981 /* Gamey Ai LibraryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6B9DAB702D06DC6C001D3981 /* Gamey Ai LibraryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B9DAB812D06DC6C001D3981 /* Build configuration list for PBXNativeTarget "Gamey Ai LibraryUITests" */;
+			buildPhases = (
+				6B9DAB6D2D06DC6C001D3981 /* Sources */,
+				6B9DAB6E2D06DC6C001D3981 /* Frameworks */,
+				6B9DAB6F2D06DC6C001D3981 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B9DAB732D06DC6C001D3981 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6B9DAB742D06DC6C001D3981 /* Gamey Ai LibraryUITests */,
+			);
+			name = "Gamey Ai LibraryUITests";
+			packageProductDependencies = (
+			);
+			productName = "Gamey Ai LibraryUITests";
+			productReference = 6B9DAB712D06DC6C001D3981 /* Gamey Ai LibraryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B9DAB4D2D06DC6A001D3981 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					6B9DAB542D06DC6A001D3981 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					6B9DAB662D06DC6C001D3981 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 6B9DAB542D06DC6A001D3981;
+					};
+					6B9DAB702D06DC6C001D3981 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 6B9DAB542D06DC6A001D3981;
+					};
+				};
+			};
+			buildConfigurationList = 6B9DAB502D06DC6A001D3981 /* Build configuration list for PBXProject "Gamey Ai Library" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B9DAB4C2D06DC6A001D3981;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 6B9DAB562D06DC6A001D3981 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B9DAB542D06DC6A001D3981 /* Gamey Ai Library */,
+				6B9DAB662D06DC6C001D3981 /* Gamey Ai LibraryTests */,
+				6B9DAB702D06DC6C001D3981 /* Gamey Ai LibraryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B9DAB532D06DC6A001D3981 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B9DAB652D06DC6C001D3981 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B9DAB6F2D06DC6C001D3981 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B9DAB512D06DC6A001D3981 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B9DAB632D06DC6C001D3981 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B9DAB6D2D06DC6C001D3981 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6B9DAB692D06DC6C001D3981 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B9DAB542D06DC6A001D3981 /* Gamey Ai Library */;
+			targetProxy = 6B9DAB682D06DC6C001D3981 /* PBXContainerItemProxy */;
+		};
+		6B9DAB732D06DC6C001D3981 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B9DAB542D06DC6A001D3981 /* Gamey Ai Library */;
+			targetProxy = 6B9DAB722D06DC6C001D3981 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6B9DAB792D06DC6C001D3981 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6B9DAB7A2D06DC6C001D3981 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B9DAB7C2D06DC6C001D3981 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Gamey Ai Library/Preview Content\"";
+				DEVELOPMENT_TEAM = UR97CAUL72;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.skyllerz.Gamey-Ai-Library";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6B9DAB7D2D06DC6C001D3981 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Gamey Ai Library/Preview Content\"";
+				DEVELOPMENT_TEAM = UR97CAUL72;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.skyllerz.Gamey-Ai-Library";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6B9DAB7F2D06DC6C001D3981 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UR97CAUL72;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.skyllerz.Gamey-Ai-LibraryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gamey Ai Library.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Gamey Ai Library";
+			};
+			name = Debug;
+		};
+		6B9DAB802D06DC6C001D3981 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UR97CAUL72;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.skyllerz.Gamey-Ai-LibraryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gamey Ai Library.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Gamey Ai Library";
+			};
+			name = Release;
+		};
+		6B9DAB822D06DC6C001D3981 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UR97CAUL72;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.skyllerz.Gamey-Ai-LibraryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Gamey Ai Library";
+			};
+			name = Debug;
+		};
+		6B9DAB832D06DC6C001D3981 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UR97CAUL72;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.skyllerz.Gamey-Ai-LibraryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Gamey Ai Library";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B9DAB502D06DC6A001D3981 /* Build configuration list for PBXProject "Gamey Ai Library" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B9DAB792D06DC6C001D3981 /* Debug */,
+				6B9DAB7A2D06DC6C001D3981 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B9DAB7B2D06DC6C001D3981 /* Build configuration list for PBXNativeTarget "Gamey Ai Library" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B9DAB7C2D06DC6C001D3981 /* Debug */,
+				6B9DAB7D2D06DC6C001D3981 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B9DAB7E2D06DC6C001D3981 /* Build configuration list for PBXNativeTarget "Gamey Ai LibraryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B9DAB7F2D06DC6C001D3981 /* Debug */,
+				6B9DAB802D06DC6C001D3981 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B9DAB812D06DC6C001D3981 /* Build configuration list for PBXNativeTarget "Gamey Ai LibraryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B9DAB822D06DC6C001D3981 /* Debug */,
+				6B9DAB832D06DC6C001D3981 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B9DAB4D2D06DC6A001D3981 /* Project object */;
+}

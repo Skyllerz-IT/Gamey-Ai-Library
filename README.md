@@ -29,7 +29,7 @@ To run the app locally, follow these steps:
 
 
    ### Customizations:
-- **Repository Link**: Replace `https://github.com/your-username/Ask-Gamey.git` with the actual link to your GitHub repository.
+- **Repository Link**: Replace `https://github.com/your-username/Ask-Gamey.git](https://github.com/Skyllerz-IT/Gamey-Ai-Library` with the actual link to your GitHub repository.
 - **IGDB API**: Make sure to replace the part where you talk about `clientID` and `accessToken` with specific instructions on how to obtain them.
 - **Contact**: Replace the GitHub link with your own.
 

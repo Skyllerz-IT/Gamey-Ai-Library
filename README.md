@@ -23,14 +23,13 @@ To run the app locally, follow these steps:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/Ask-Gamey.git
+   git clone https://github.com/Skyllerz-IT/Gamey-Ai-Library
 
 
 
 
    ### Customizations:
-- **Repository Link**: Replace `https://github.com/your-username/Ask-Gamey.git](https://github.com/Skyllerz-IT/Gamey-Ai-Library` with the actual link to your GitHub repository.
-- **IGDB API**: Make sure to replace the part where you talk about `clientID` and `accessToken` with specific instructions on how to obtain them.
-- **Contact**: Replace the GitHub link with your own.
+- **Repository Link**: `https://github.com/Skyllerz-IT/Gamey-Ai-Library`
+- **Contact**: `https://github.com/Skyllerz-IT`
 
 This `README.md` provides an overview of the app, setup instructions for running it locally, and useful information for developers who may want to contribute to the project.

@@ -20,7 +20,8 @@ struct ChatMessage: Identifiable {
 
 // Classe per gestire il fetch dei dati dall'API
 class IGDBFetcher {
-// Sostituisci con il tuo token di accesso
+    let clientID = "twitchclientidhere" // Sostituisci con il tuo client ID
+    let accessToken = "igdbapikeyhere" // Sostituisci con il tuo token di accesso
     private let url = URL(string: "https://api.igdb.com/v4/games")!
     
     func fetchGames(searchQuery: String, completion: @escaping (Game?) -> Void) {

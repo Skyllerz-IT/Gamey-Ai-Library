@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		6B29E3552D0712F5008905D7 /* IGDB-SWIFT-API in Frameworks */ = {isa = PBXBuildFile; productRef = 6B29E3542D0712F5008905D7 /* IGDB-SWIFT-API */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		6B9DAB682D06DC6C001D3981 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B29E3552D0712F5008905D7 /* IGDB-SWIFT-API in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +77,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6B29E3592D077D91008905D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6B9DAB4C2D06DC6A001D3981 = {
 			isa = PBXGroup;
 			children = (
 				6B9DAB572D06DC6A001D3981 /* Gamey Ai Library */,
 				6B9DAB6A2D06DC6C001D3981 /* Gamey Ai LibraryTests */,
 				6B9DAB742D06DC6C001D3981 /* Gamey Ai LibraryUITests */,
+				6B29E3592D077D91008905D7 /* Frameworks */,
 				6B9DAB562D06DC6A001D3981 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -112,6 +125,7 @@
 			);
 			name = "Gamey Ai Library";
 			packageProductDependencies = (
+				6B29E3542D0712F5008905D7 /* IGDB-SWIFT-API */,
 			);
 			productName = "Gamey Ai Library";
 			productReference = 6B9DAB552D06DC6A001D3981 /* Gamey Ai Library.app */;
@@ -195,6 +209,9 @@
 			);
 			mainGroup = 6B9DAB4C2D06DC6A001D3981;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				6B9DAB9C2D070EF6001D3981 /* XCRemoteSwiftPackageReference "IGDB-SWIFT-API" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 6B9DAB562D06DC6A001D3981 /* Products */;
 			projectDirPath = "";
@@ -399,6 +416,8 @@
 				DEVELOPMENT_TEAM = UR97CAUL72;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Gamey AI Library";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -428,6 +447,8 @@
 				DEVELOPMENT_TEAM = UR97CAUL72;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Gamey AI Library";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -558,6 +579,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6B9DAB9C2D070EF6001D3981 /* XCRemoteSwiftPackageReference "IGDB-SWIFT-API" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/husnjak/IGDB-SWIFT-API.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.4.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6B29E3542D0712F5008905D7 /* IGDB-SWIFT-API */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6B9DAB9C2D070EF6001D3981 /* XCRemoteSwiftPackageReference "IGDB-SWIFT-API" */;
+			productName = "IGDB-SWIFT-API";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6B9DAB4D2D06DC6A001D3981 /* Project object */;
 }

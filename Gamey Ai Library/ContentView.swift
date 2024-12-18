@@ -1,61 +1,38 @@
-//
-//  ContentView.swift
-//  Gamey Ai Library
-//
-//  Created by Davide Picentino on 09/12/24.
-//
-
 import SwiftUI
-import SwiftData
 
 struct ContentView: View {
-    @Environment(\.modelContext) private var modelContext
-    @Query private var items: [Item]
+    @StateObject private var favouritesManager = FavouritesManager() // Usa StateObject per mantenere il manager dei preferiti
+    @State private var selectedTab: Int = 1 // Imposta l'indice della tab da selezionare di default (1 per la "Discover")
 
     var body: some View {
-        NavigationSplitView {
-            List {
-                ForEach(items) { item in
-                    NavigationLink {
-                        Text("Item at \(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))")
-                    } label: {
-                        Text(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))
-                    }
+        TabView(selection: $selectedTab) { // Aggiungi binding per la selezione della tab
+            FavouriteGamesView()
+                .environmentObject(favouritesManager) // Passa l'EnvironmentObject alla vista dei preferiti
+                .tabItem {
+                    Label("Library", systemImage: "book")
                 }
-                .onDelete(perform: deleteItems)
-            }
-            .toolbar {
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    EditButton()
-                }
-                ToolbarItem {
-                    Button(action: addItem) {
-                        Label("Add Item", systemImage: "plus")
-                    }
-                }
-            }
-        } detail: {
-            Text("Select an item")
-        }
-    }
+                .tag(0) // Aggiungi tag per l'indicizzazione della tab
 
-    private func addItem() {
-        withAnimation {
-            let newItem = Item(timestamp: Date())
-            modelContext.insert(newItem)
-        }
-    }
+            SearchGameView()
+                .environmentObject(favouritesManager) // Passa l'EnvironmentObject alla vista di ricerca
+                .tabItem {
+                    Label("Discover", systemImage: "magnifyingglass")
+                }
+                .tag(1) // Aggiungi tag per l'indicizzazione della tab
 
-    private func deleteItems(offsets: IndexSet) {
-        withAnimation {
-            for index in offsets {
-                modelContext.delete(items[index])
-            }
+            SettingsView()
+                .tabItem {
+                    Label("Settings", systemImage: "gearshape")
+                }
+                .tag(2) // Aggiungi tag per l'indicizzazione della tab
+        }
+        .onAppear {
+            // Quando la vista appare, la tab di default è la "Discover" (indice 1)
+            selectedTab = 1
         }
     }
 }
 
 #Preview {
     ContentView()
-        .modelContainer(for: Item.self, inMemory: true)
 }

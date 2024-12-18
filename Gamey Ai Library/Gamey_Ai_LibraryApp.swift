@@ -10,11 +10,14 @@ import SwiftData
 
 @main
 struct Gamey_Ai_LibraryApp: App {
+    @StateObject private var favouritesManager = FavouritesManager()
+
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
             Item.self,
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
+        
 
         do {
             return try ModelContainer(for: schema, configurations: [modelConfiguration])
@@ -26,6 +29,7 @@ struct Gamey_Ai_LibraryApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                        .environmentObject(favouritesManager)
         }
         .modelContainer(sharedModelContainer)
     }

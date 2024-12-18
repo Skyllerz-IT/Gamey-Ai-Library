@@ -8,7 +8,7 @@
 import SwiftUI
 import SwiftData
 
-struct Timestamps: View {
+struct TimestampsView: View {
     @Environment(\.modelContext) private var modelContext
     @Query private var items: [Item]
 
@@ -37,6 +37,7 @@ struct Timestamps: View {
         } detail: {
             Text("Select an item")
         }
+        
     }
 
     private func addItem() {
@@ -53,9 +54,10 @@ struct Timestamps: View {
             }
         }
     }
+    
 }
 
 #Preview {
-    Timestamps()
+    TimestampsView()
         .modelContainer(for: Item.self, inMemory: true)
 }

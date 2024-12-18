@@ -1,0 +1,33 @@
+{
+  "originHash" : "10d2212ffcd63bba87956042ee2c20c1978b680e0e914a4ba68a8a0f78294d00",
+  "pins" : [
+    {
+      "identity" : "igdb-swift-api",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/husnjak/IGDB-SWIFT-API.git",
+      "state" : {
+        "revision" : "10e284bd927405dbcf9cb14484b151db70b075b5",
+        "version" : "0.4.5"
+      }
+    },
+    {
+      "identity" : "just",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/dduan/Just.git",
+      "state" : {
+        "revision" : "1824bf84cf52d11d69ae20cfb89f0ce5bffa5650",
+        "version" : "0.8.0"
+      }
+    },
+    {
+      "identity" : "swift-protobuf",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-protobuf.git",
+      "state" : {
+        "revision" : "ebc7251dd5b37f627c93698e4374084d98409633",
+        "version" : "1.28.2"
+      }
+    }
+  ],
+  "version" : 3
+}
